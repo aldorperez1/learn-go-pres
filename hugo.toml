@@ -1,7 +1,8 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Learning Go'
 theme = ["github.com/dzello/reveal-hugo"]
+
 [markup.goldmark.renderer]
 unsafe = true
 
@@ -9,10 +10,17 @@ unsafe = true
 baseName = "index"
 mediaType = "text/html"
 isHTML = true
+
 [markup.highlight]
 codeFences = false
+
 [params.reveal_hugo]
 highlight_theme = "github"
+theme = "white"
+history = true
+slide_number = true
+transition = 'none'
+transition_speed = 'fast'
 
 [[params.reveal_hugo.plugins]]
 # name must match the name by which the plugin is exported
