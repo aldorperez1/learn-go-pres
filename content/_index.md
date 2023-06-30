@@ -1,5 +1,5 @@
 +++
-title = "My presentation"
+title = "Learning Go"
 outputs = ["Reveal"]
 +++
 
