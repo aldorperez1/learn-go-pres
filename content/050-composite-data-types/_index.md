@@ -9,8 +9,10 @@ outputs = ["Reveal"]
 
 ---
 
+{{< slide id="overview" >}}
 ## Overview
 
-- One
-- Two
-- Three
+- [Arrays](#arrays)
+- [Slices](#slices)
+- [Maps](#maps)
+- [Structs](#structs)

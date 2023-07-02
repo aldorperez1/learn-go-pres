@@ -1,4 +1,4 @@
-baseURL = 'http://example.org/'
+baseURL = 'http://cna.boxboat.io/'
 languageCode = 'en-us'
 title = 'Learning Go'
 theme = ["github.com/dzello/reveal-hugo"]
