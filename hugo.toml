@@ -19,7 +19,7 @@ highlight_theme = "github"
 theme = "white"
 history = true
 slide_number = true
-transition = 'none'
+transition = 'slide'
 transition_speed = 'fast'
 
 [[params.reveal_hugo.plugins]]
