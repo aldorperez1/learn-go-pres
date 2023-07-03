@@ -5,10 +5,3 @@ outputs = ["Reveal"]
 
 # METHODS
 
----
-
-## Content
-
-- One
-- Two
-- Three
