@@ -9,6 +9,7 @@ outputs = ["Reveal"]
 
 ## Overview
 
-- One
-- Two
-- Three
+- [Functions](#functions-in-go)
+- [First Class Functions](#firstClassFunctions)
+- [Errors in Go](#errors)
+- [Error Handling: Defer, Panic, & Recover](#deferPanicRecover)
