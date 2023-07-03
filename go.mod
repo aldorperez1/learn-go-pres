@@ -1,4 +1,4 @@
-module github.com/me/my-presentation
+module github.com/aldorperez/learn-go-pres
 
 go 1.19
 
