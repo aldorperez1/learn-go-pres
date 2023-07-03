@@ -4,11 +4,3 @@ outputs = ["Reveal"]
 +++
 
 # INTERFACES
-
----
-
-## Content
-
-- One
-- Two
-- Three
