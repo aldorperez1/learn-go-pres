@@ -1,3 +1,3 @@
-[submodule "static/plugins/menu2"]
-	path = static/plugins/menu2
+[submodule "static/plugins/menu"]
+	path = static/plugins/menu
 	url = git@github.com:denehyg/reveal.js-menu.git
