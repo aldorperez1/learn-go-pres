@@ -9,6 +9,8 @@ outputs = ["Reveal"]
 
 ## Content
 
-- One
-- Two
-- Three
+- [Go Toolchain](#goToolchain)
+- [Packages](#packages)
+- [Imports](#imports)
+- [Modules](#modules)
+- [Directory Structures](#dirStruct)
