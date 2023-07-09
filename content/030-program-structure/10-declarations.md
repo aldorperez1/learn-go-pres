@@ -2,6 +2,7 @@
 +++
 
 {{% section %}}
+{{< slide id="decl" >}}
 
 # Declarations
 

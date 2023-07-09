@@ -48,7 +48,7 @@ panic: Something went wrong!
 - Allows graceful handling of panics and resuming normal execution.
 
 ---
-#### Recover cont.
+#### Recover (continued)
 
 ```go
 func main() {

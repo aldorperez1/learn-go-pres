@@ -3,6 +3,7 @@
 
 {{% section %}}
 
+{{< slide id="goroutines" >}}
 # Goroutines
 aka lightweight🪶 threads ⚡️
 
@@ -46,8 +47,7 @@ aka lightweight🪶 threads ⚡️
   }
 ```
 ---
-
-Can also pass in anonymous functions
+### Passing in Anonymous Functions
 
 ```go
 func main() {

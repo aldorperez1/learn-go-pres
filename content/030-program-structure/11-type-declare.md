@@ -2,6 +2,7 @@
 +++
 
 {{% section %}}
+{{< slide id="typedecl" >}}
 
 # Type Declaration in Go
 

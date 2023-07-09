@@ -53,15 +53,18 @@
 
 
 ---
-#### Overview of Standard Go Project Layout (contd.)
+#### Overview of Standard Go Project Layout (continued)
 - `/scripts:` Build, install, and analysis scripts.
 - `/build:` Packaging and Continuous Integration.
 - `/deployments:` Deployment configurations and templates.
 - `/test:` Additional test apps and test data.
+
+---
+#### Overview of Standard Go Project Layout (continued)
 - `/docs:` Design and user documents.
 - `/tools:` Supporting tools for the project.
 - `/examples:` Examples for applications and libraries.
 - `/vendor:` Application dependencies that are copied into the project
 
-
+[Back to Home](..)
 {{% /section %}}

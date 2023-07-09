@@ -2,6 +2,7 @@
 +++
 
 {{% section %}}
+{{< slide id="memmgmt" >}}
 # Memory Management with Go
 
 
@@ -37,6 +38,8 @@
 Examples:
 - Stack: Local variables, function arguments, return values.
 - Heap: Dynamically allocated objects, arrays, slices, maps.
+[Back to Home](..)
 
 
 {{% /section %}}
+

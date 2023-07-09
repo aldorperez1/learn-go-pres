@@ -65,4 +65,6 @@ fmt.Println(p) // prints (0, 0)
 What happens when you try to modify the reference inside the function?
 {{% /note %}}
 
+[Back to Home](../..), [Back to Section Overview](#overview)
 {{% /section %}}
+

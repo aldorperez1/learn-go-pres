@@ -2,7 +2,9 @@
 +++
 
 {{% section %}}
-# Concurrent Programing
+
+{{< slide id="introConcurrency" >}}
+# Concurrent Programming
 
 ---
 
@@ -43,7 +45,7 @@
 - Tasks take turns on a processor
 
 ---
-
+### Image: Concurrency vs Parallelism
 
 <img src="/images/100-10-conc-v-parallel.webp"  >
 

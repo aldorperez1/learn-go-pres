@@ -1,6 +1,9 @@
 +++
 +++
 
+{{% section %}}
+{{< slide id="introMethod" >}}
+
 
 #### Introduction to Methods
 - Methods are functions associated with a type
@@ -115,3 +118,5 @@ func main() {
     // will result in a compile-time error
 }
 ```
+
+{{% /section %}}

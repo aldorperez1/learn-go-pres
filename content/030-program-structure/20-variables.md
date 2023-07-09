@@ -2,11 +2,12 @@
 +++
 
 {{% section %}}
+{{< slide id="var" >}}
 
 # Variables 
 
 ---
-
+#### Declaration
 - In Go, a variable declaration creates a variable of a particular type, assigns a name to it, and can set an initial value.
 
 ```go
@@ -45,17 +46,16 @@ var b, f, s = true, 2.3, "four" // bool, float64, string
 var f, err = os.Open(name)
 ```
 
-## Short Variable Declarations
+---
+#### Short Variable Declarations
 - Go provides a concise syntax for declaring and assigning variables using the short variable declaration (`:=`) operator.
 - It allows you to declare and initialize variables without explicitly specifying the type.
 
----
 Syntax:
 ```go
 variableName := expression
 ```
 
----
 Example:
 ```go
 name := "John"
@@ -64,13 +64,13 @@ isActive := true
 ```
 
 ---
-#### Benefits of Short Variable Declarations:
+#### Benefits of Short Variable Declarations
 - Concise: Reduces the need for repetitive type specification.
 - Readability: Makes code more compact and easier to understand.
 - Scope: Variables declared using short variable declarations are limited to the innermost block where they are declared.
 
 ---
-#### Limitations of Short Variable Declarations:
+#### Limitations of Short Variable Declarations
 - Short variable declarations can only be used for declaring and assigning new variables within the same block.
 - They cannot be used for reassigning or updating the value of an existing variable.
 

@@ -3,6 +3,8 @@
 
 {{% section %}}
 
+{{< slide id="introGenerics" >}}
+
 # Generics in Go Programming Language
 
 ---

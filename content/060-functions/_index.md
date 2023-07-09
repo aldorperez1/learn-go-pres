@@ -3,13 +3,11 @@ title = "Learn Go: Functions"
 outputs = ["Reveal"]
 +++
 
-# FUNCTIONS
+{{< slide id="overview" >}}
+## Functions Overview
 
----
-
-## Overview
-
-- [Functions](#functions-in-go)
+- [Introduction](#functions-in-go)
 - [First Class Functions](#firstClassFunctions)
-- [Errors in Go](#errors)
-- [Error Handling: Defer, Panic, & Recover](#deferPanicRecover)
+- [Errors](#errors)
+- [Error Handling](#deferPanicRecover)
+- [Summary](#errorSummary)

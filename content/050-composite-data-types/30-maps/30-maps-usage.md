@@ -97,7 +97,7 @@ delete(myMap, "apple")
 
 ---
 
-Passing Maps to functions
+#### Passing Maps to functions
 - Maps are reference types in Go, so when you pass a map to a function, you're actually passing a reference to the original map.
 - Modifying the map within the function will also modify the original map outside the function.
 

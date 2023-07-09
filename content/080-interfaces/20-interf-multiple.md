@@ -3,6 +3,8 @@
 
 {{% section %}}
 
+{{< slide id="multiIface" >}}
+
 #### Implementing Multiple Interfaces
 - Go allows types to implement multiple interfaces
 - Multiple interfaces can help:
