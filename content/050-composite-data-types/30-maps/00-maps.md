@@ -3,4 +3,4 @@
 
 {{< slide id="maps" >}}
 
-# MAPS
+# Maps

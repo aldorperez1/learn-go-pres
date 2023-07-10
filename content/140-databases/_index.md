@@ -3,12 +3,5 @@ title = "Learn Go: Databases"
 outputs = ["Reveal"]
 +++
 
-# DATABASES
-
----
-
-## Content
-
-- One
-- Two
-- Three
+{{< slide id="overview" >}}
+# Databases Overview

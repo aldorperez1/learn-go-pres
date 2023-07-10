@@ -3,11 +3,8 @@ title = "Learn Go: Packaging & Tooling"
 outputs = ["Reveal"]
 +++
 
-# PACKAGING AND TOOLING
-
----
-
-## Content
+{{< slide id="overview" >}}
+## Packaging & Tooling Overview
 
 - [Go Toolchain](#goToolchain)
 - [Packages](#packages)

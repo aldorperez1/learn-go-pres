@@ -13,25 +13,23 @@
 - Syntax: `map[keyType]valueType`.
 
 ---
-## Map Implementation Details
-a. Hash Function
+## Map Implementation Details - Hash Function
 - Converts keys into hash codes.
 - Importance of a good hash function.
 
 ---
-## Map Implementation Details
-b. Buckets and Buckets Array
+## Map Implementation Details - Buckets
 - Buckets store key-value pairs.
 - Buckets array organizes elements.
 
 ---
-## Map Implementation Details
+## Map Implementation Details - Collision Handling
 c. Collision Handling
 - Collisions occur when hash codes clash.
 - Separate chaining and open addressing.
 
 ---
-## Map Implementation Details
+## Map Implementation Details - Growth/Rehashing
 d. Growth and Rehashing
 - Dynamically expands capacity.
 - Factors triggering growth.

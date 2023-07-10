@@ -5,9 +5,6 @@
 
 # Modifying structs
 
----
-Modify Structs
-
 - Use `.` to access the structs fields and to assign new values
 
 ```go

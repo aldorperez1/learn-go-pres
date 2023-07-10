@@ -3,13 +3,12 @@ title = "Learn Go: Program Structure"
 outputs = ["Reveal"]
 +++
 
-# PROGRAM STRUCTURE
+{{< slide id="overview" >}}
+## Program Structure Overview
 
----
-
-## Overview
-
-- Declarations
-- Variables
-- Pointers
-- The `new` Function
+- [Declarations](#decl)
+- [Type Declarations](#typedecl)
+- [Variables](#var)
+- [Pointers](#ptr)
+- [new Function](#newfunc)
+- [Memory Management](#memmgmt)

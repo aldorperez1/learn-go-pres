@@ -6,7 +6,7 @@
 ## Exploring Multidimensional Arrays
 
 ---
-Topic: Multidimensional Arrays
+#### Multidimensional Arrays
 ```go
 // Multidimensional arrays represent tabular or grid-like structures.
 // Syntax: var arrayName [rows][columns]Type
@@ -15,7 +15,7 @@ var matrix [3][3]int
 ```
 
 ---
-Accessing Elements of a Two-Dimensional Array
+#### Accessing Elements of a Two-Dimensional Array
 ```go
 // Elements are accessed using two sets of square brackets.
 // Syntax: arrayName[rowIndex][columnIndex]
@@ -24,7 +24,7 @@ matrix[0][2]
 ```
 
 ---
-Assigning Multidimensional Arrays of the Same Type
+#### Assigning Multidimensional Arrays of the Same Type
 ```go
 // Multidimensional arrays can be assigned if they have the same dimensions and element types.
 // Example:
@@ -33,7 +33,7 @@ destination := source
 ```
 
 ---
-Assigning Multidimensional Arrays by Index
+#### Assigning Multidimensional Arrays by Index
 ```go
 // Specific elements can be assigned in a multidimensional array.
 // Example:

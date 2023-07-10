@@ -3,12 +3,10 @@ title = "Learn Go: Concurrency"
 outputs = ["Reveal"]
 +++
 
-# CONCURRENCY
+{{< slide id="overview" >}}
 
----
+## Concurrency Overview
 
-## Content
-
-- One
-- Two
-- Three
+- [Introduction](#introConcurrency)
+- [goroutines](#goroutines)
+- [Scheduler](#scheduler)

@@ -47,4 +47,6 @@ Original array: [1 2 3]
 After modifyArrayByPointer: [10 2 3]
 ```
 
+[Back to Home](../..), [Back to Section Overview](#overview)
+
 {{% /section %}}

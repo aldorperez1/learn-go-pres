@@ -48,8 +48,9 @@ err := errors.New("error message")
 import "fmt"
 err := fmt.Errorf("error: %s", otherErr)
 ```
----
 
+---
+## Creating Custom Errors (continued)
 ```go
 func divide(a, b int) (int, error) {
 	if b == 0 {
@@ -57,7 +58,6 @@ func divide(a, b int) (int, error) {
 	}
 	return a / b, nil
 }
-
 func main() {
 	numerator := 10
 	denominator := 0
@@ -86,7 +86,8 @@ func (e NoNameProvided) Error() string {
 }
 ```
 ---
-
+## Creating a Custom Error - Reusable (continued)
+Example (continued)
 ```go
 func sayHello(s string) (string, error) {
 	if s == "" {

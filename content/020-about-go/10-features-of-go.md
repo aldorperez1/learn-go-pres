@@ -2,7 +2,7 @@
 +++
 
 {{% section %}}
-
+{{< slide id="features" >}}
 # Features of Go
 - Simplicity
 - Concurrency

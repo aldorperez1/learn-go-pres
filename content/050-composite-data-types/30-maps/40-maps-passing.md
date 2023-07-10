@@ -3,10 +3,8 @@
 
 {{% section %}}
 
-# Passing Maps to functions
+# Passing Maps to Functions
 
----
-Passing Maps to functions
 - Maps are reference types in Go, so when you pass a map to a function, you're actually passing a reference to the original map.
 - Modifying the map within the function will also modify the original map outside the function.
 
@@ -24,4 +22,5 @@ fmt.Println("Map after adding values:", myMap)
 Map after adding values: map[1:One 2:Two 3:Three]
 ```
 
+[Back to Home](../..), [Back to Section Overview](#overview)
 {{% /section %}}

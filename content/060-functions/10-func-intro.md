@@ -13,7 +13,7 @@
 
 ---
 
-# Functions recap
+# Functions Recap
 
 Syntax
 
@@ -72,7 +72,7 @@ Syntax:
 ```go
 func functionName(parameters ...type) { ... }
 ```
-Examle
+Example
 ```go
 func sum(numbers ...int) int {
 	total := 0

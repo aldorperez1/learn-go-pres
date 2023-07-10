@@ -3,12 +3,8 @@ title = "Learn Go: Generics"
 outputs = ["Reveal"]
 +++
 
-# GENERICS
+{{< slide id="overview" >}}
+## Generics Overview
 
----
-
-## Content
-
-- One
-- Two
-- Three
+- [Introduction](#introGenerics)
+- [Summary](#summaryGenerics)

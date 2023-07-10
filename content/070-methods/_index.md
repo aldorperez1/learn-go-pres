@@ -3,5 +3,9 @@ title = "Learn Go: Methods"
 outputs = ["Reveal"]
 +++
 
-# METHODS
+{{< slide id="overview" >}}
+## Methods Overview
 
+- [Methods](#introMethod)
+- [Method Sets](#methodSet)
+- [Type Embedding](typeEmbed)

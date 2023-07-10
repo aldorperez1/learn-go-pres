@@ -3,11 +3,15 @@
 
 {{% section %}}
 
+{{< slide id="embedIface" >}}
+
 #### Interface Embedding
 - Discuss interface embedding as a way to compose interfaces.
 - Explain that an interface can embed other interfaces.
 - Show code examples of interface embedding in Go.
 
+---
+#### Example
 ```go
 type Shape interface {
     Area() float64
@@ -25,7 +29,11 @@ type Geometry interface {
 type Rectangle struct {
     width, height float64
 }
+```
+---
+#### Example (continued)
 
+```go
 func (r Rectangle) Area() float64 {
     return r.width * r.height
 }

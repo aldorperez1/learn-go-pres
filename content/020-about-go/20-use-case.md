@@ -1,13 +1,13 @@
 +++
 +++
 
-
+{{< slide id="usecase" >}}
 # Use Cases and Limitations of Go
 
 
 ---
 
-{{% section %}}
+{{% section id="goGood" %}}
 
 ## Where is Go a Good Language to Use?
 - System Programming
@@ -61,8 +61,7 @@ Go's fast compilation, small binary size, and ease of deployment make it ideal f
 
 ---
 
-{{% section %}}
-
+{{% section id="goBad" %}}
 
 ### Where is Go Not a Good Language to Use?
 - CPU-Intensive Tasks

@@ -10,12 +10,12 @@
 1. [Interfaces](./080-interfaces) 
 1. [Generics](./090-generics)
 1. [Concurrency](./100-concurrency)
-1. [Packaging and tooling](./110-packaging-tooling)
+1. [Packaging and Tooling](./110-packaging-tooling)
 
 ---
 
-#### Table of Contents
-10. [Testing](./120-testing)
-11. [Rest API](./130-rest-api)
+#### Table of Contents (continued)
+12. [Testing](./120-testing)
+1. [Rest API](./130-rest-api)
 1. [Databases](./140-databases)
 

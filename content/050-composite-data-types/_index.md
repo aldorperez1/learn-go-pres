@@ -5,12 +5,12 @@ outputs = ["Reveal"]
 
 {{< slide id="hello" background-image="/images/gopher.png" background-size="20%" background-position="right" >}}
 
-# COMPOSITE DATA TYPES
+# Composite Data Types
 
 ---
 
 {{< slide id="overview" >}}
-## Overview
+## Composite Data Types Overview
 
 - [Arrays](#arrays)
 - [Slices](#slices)

@@ -13,7 +13,7 @@
 - Benefits: simplicity, avoidance of off-by-one errors
 
 ---
-Example 1: Iterating Over a Slice using `for range`
+#### Example 1: Iterating Over a Slice using `for range`
 ```go
 intSlice := []int{10, 20, 30, 40, 50}
 for _, value := range intSlice {
@@ -35,7 +35,7 @@ Output:
 - `_` signals intentional unused index value
 
 ---
-Example 2: Using the Blank Identifier to Ignore Index Value
+#### Example 2: Using the Blank Identifier to Ignore Index Value
 ```go
 strSlice := []string{"apple", "banana", "cherry", "date"}
 for index, value := range strSlice {
@@ -56,7 +56,7 @@ Index: 3, Value: date
 - Provides fine-grained control over the iteration
 
 ---
-Example 3: Iterating Over a Slice using a Traditional `for` Loop
+#### Example 3: Iterating Over a Slice using a Traditional `for` Loop
 ```go
 floatSlice := []float64{3.14, 1.618, 2.718, 0.577}
 sum := 0.0

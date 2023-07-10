@@ -1,6 +1,9 @@
 +++
 +++
 
+{{% section %}}
+
+{{< slide id="errorSummary" >}}
 # Summary
 
 ---
@@ -13,6 +16,6 @@
 - Avoid ignoring errors or using a blanket panic or recover statement.
 - Log or report errors appropriately to aid in debugging and troubleshooting.
 
----
+[Back to Home](..)
 
-[Go Home](..)
+{{% /section %}}

@@ -7,7 +7,7 @@
 Subtitle: Exploring How Arrays Work Under the Hood
 
 ---
-## Overview of Arrays
+## Brief Recap
 - Definition: Arrays are fixed-size sequences of elements of the same type.
 - Syntax: `var arrayName [size]Type`
 - Example: `var numbers [5]int`
