@@ -3,8 +3,9 @@
 
 {{% section %}}
 
+# Writing and Running Unit Tests ⛔️✅
 ---
-#### Introduction to Testing in Go
+#### Introduction to Testing
 - Importance of testing in software development
   - Ensures code correctness, reliability, and maintainability
   - Helps catch bugs early in the development process
@@ -30,12 +31,13 @@ import (
     "mypackage"
 )
 ```
-
+---
 #### Writing Test Functions
 - Test functions should have a "Test" prefix (e.g., "TestMyFunction")
 - Test functions should accept a *testing.T parameter for reporting test results
 - Write individual test cases within test functions using assertions
 
+---
 ```go
 func TestMyFunction(t *testing.T) {
     // Test case 1
@@ -51,13 +53,14 @@ func TestMyFunction(t *testing.T) {
     }
 }
 ```
-
+---
 #### Running Tests
 - Use the "go test" command to run tests in the terminal
 - Running all tests in a package: `go test`
 - Running specific tests or test functions: `go test -run TestFunctionName`
 - View test output and results, including pass/fail information
 
+---
 #### Common Test Functions and Techniques
 - Setup and teardown functions: used for test setup and cleanup
 - Use `t.Fatal` and `t.Error` for reporting test failures
@@ -65,44 +68,10 @@ func TestMyFunction(t *testing.T) {
 - Test for expected errors or specific behavior in code
 
 ---
-#### Writing Assertions using Stretch/testify
-- Overview of Stretch/testify
-  - A popular testing library for Go with enhanced assertion capabilities
-  - Provides a set of assertion functions for cleaner and more readable tests
-  - Offers additional functionalities for mocking, stubbing, and more
+# Exercise 🏋️‍♀️
 
-- Installing Stretch/testify
-  - Install the package using the "go get" command
-    - `go get github.com/stretchr/testify`
-
----
-### Writing Assertions
-- Use the assertion functions provided by `Stretch/testify`
-- Assert equality with `assert.Equal`
-- Check for true/false conditions with `assert.True/assert.False`
-- Assert errors with `assert.Error/assert.NoError`
-- Additional assertion functions available for different scenarios
-
-```go
-import (
-    "testing"
-    "github.com/stretchr/testify/assert"
-)
-func TestMyFunction(t *testing.T) {
-    // Assertion using assert.Equal
-    assert.Equal(t, 4, mypackage.MyFunction(2))
-    // Assertion using assert.True
-    assert.True(t, someCondition)
-    // Assertion using assert.Error
-    assert.Error(t, err)
-}
+```shell
+cd 120-testing/01-write-tests
 ```
----
-#### Advanced Assertion Techniques
-- Check for expected panics with `assert.Panics`
-- Assert the length and contents of slices and arrays
-- Compare complex structures using `assert.ObjectsAreEqual`
-- Customize error messages in assertions for better diagnostics
-
 
 {{% /section %}}

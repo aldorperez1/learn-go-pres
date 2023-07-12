@@ -20,9 +20,8 @@
 - Promotes test code reusability and maintainability.
 
 ---
-#### Example of Table-Driven Testing
 
-- Example: Testing a mathematical function, `Sum`, that takes two integers and returns their sum.
+- Example: Testing a mathematical function, `Add`, that takes two integers and returns their sum.
 - The table includes test cases with different inputs and expected outputs:
 
 | Input   | Expected Output |
@@ -30,8 +29,35 @@
 | 2, 3    | 5               |
 | -1, 5   | 4               |
 | 0, 0    | 0               |
-| 100, 50 | 150             |
 
-- The test function iterates over the table, calling `Sum` with each input and checking if the returned value matches the expected output.
+- The test function iterates over the table, calling `Add` with each input and checking if the returned value matches the expected output.
+
+---
+
+```go
+testCases := []struct {
+		a, b     int
+		expected int
+	}{
+		{2, 3, 5},    // Test Case 1: 2 + 3 = 5
+		{-5, 10, 5},  // Test Case 2: -5 + 10 = 5
+		{0, 0, 0},    // Test Case 3: 0 + 0 = 0
+		{100, -100, 0}, // Test Case 4: 100 + (-100) = 0
+	}
+
+	for _, tc := range testCases {
+		result := Add(tc.a, tc.b)
+		if result != tc.expected {
+			t.Errorf("Add(%d, %d) = %d, expected %d", tc.a, tc.b, result, tc.expected)
+		}
+	}
+```
+
+---
+# Exercise 🏋️‍♀️
+
+```shell
+cd 120-testing/03-table
+```
 
 {{% /section %}}

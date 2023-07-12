@@ -6,6 +6,7 @@
 
 # Profiling in Go 🏎️ 📈
 
+---
 #### Intro to profiling
 
 - Profiling is the process of analyzing the performance characteristics of a program to identify bottlenecks, inefficiencies, and areas for optimization.
@@ -50,9 +51,10 @@
 #### Analyzing CPU Profiling Data
 - Using the `go tool pprof` command-line tool
   - Analyze the CPU profiling report:
-    ```
-    go tool pprof cpu.prof
-    ```
+
+```shell
+go tool pprof cpu.prof
+```
 - Interpreting the CPU profiling report
   - Identify functions with high CPU usage and execution time
   - Look for bottlenecks and areas for optimization
@@ -122,4 +124,29 @@
   - Incorporate profiling into the development workflow
   - Automate profiling using CI/CD tools for regular analysis
 
+---
+#### Profiling via HTTP Server
+- By adding the `net/http/pprof` import while having an http server up and running, the package will add a route to the server under `<address>:<port>/debug/pprof/`
+
+```go
+import(
+	"net/http"
+	_ "net/http/pprof"
+)
+...
+http.ListenAndServe("localhost:8080", nil)
+
+```
+---
+<img src="/images/120-profiling-web.png">
+
+---
+# Exercise 🏋️‍♀️
+
+```shell
+# File-based
+cd 120-testing/04-profiling-local
+# Web-based
+cd 120-testing/04-profiling-server
+```
 {{% /section %}}
