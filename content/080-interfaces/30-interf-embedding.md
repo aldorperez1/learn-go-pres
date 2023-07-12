@@ -6,9 +6,7 @@
 {{< slide id="embedIface" >}}
 
 #### Interface Embedding
-- Discuss interface embedding as a way to compose interfaces.
-- Explain that an interface can embed other interfaces.
-- Show code examples of interface embedding in Go.
+- Interface embedding is a way to compose/embed interfaces.
 
 ---
 #### Example

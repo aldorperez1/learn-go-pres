@@ -5,11 +5,7 @@
 {{< slide id="methodSet" >}}
 
 #### Method Sets
-<!-- TODO: Needs more explanation -->
-- Explain the concept of method sets.
 - Method set of a type determines the interface it implements.
-- Discuss value receiver vs. pointer receiver and their impact on method sets.
-
 ---
 #### Method Sets Example
 ```go

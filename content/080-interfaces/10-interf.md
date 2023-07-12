@@ -19,7 +19,7 @@
 
 ---
 #### How do you implement an interface?
-- A type a type **implicitly** implements an interface if it contains all the methods defined in the interface.
+- A type **implicitly** implements an interface if it contains all the methods defined in the interface.
 - No need to label it as `implements`
 
 ---

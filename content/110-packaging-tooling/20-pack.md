@@ -32,7 +32,7 @@
 - Lowercase for packages not intended for external use
 
 ---
-# Package Main
+# Package main
 
 - Introduction to the special `main` package
 - Entry point for executable programs
