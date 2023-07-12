@@ -6,8 +6,11 @@
 {{< slide id="typeAssert" >}}
 
 #### Type Assertions
-- Introduce type assertions for working with interfaces.
-- Explain how type assertions allow us to extract the underlying concrete type from an interface.
-- Provide code examples of type assertions in Go.
+- Provide access to the underlying typed concrete value of an interface-typed variable
+- In the example below, `value` must be an interface-typed variable
+
+```go
+t, ok := value.(typeName)
+```
 
 {{% /section %}}

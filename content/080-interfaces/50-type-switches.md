@@ -6,9 +6,21 @@
 {{< slide id="typeSwitch" >}}
 
 #### Type Switches
-- Discuss type switches as an alternative to type assertions.
-- Explain how type switches enable branching based on the type of an interface value.
-- Show code examples of type switches in Go.
+- A `switch`-like construct that permits multiple type assertions in series
+
+Example:
+```go
+switch data.(type) {
+    case string:
+      // string type
+    case int:
+      // int type
+    case float64:
+      // float64 type
+    default:
+      // unknown or default tyoe
+   }
+```
 
 [Back to Home](..)
 {{% /section %}}
