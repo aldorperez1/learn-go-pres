@@ -46,7 +46,7 @@ fmt.Println(p) // prints (5, 5)
 ---
 
 #### Trying to modify reference inside function
-- Since its only a copy of a reference, it only changes the reference inside the function
+- Since it's only a copy of a reference, it only changes the reference inside the function
 - Original reference is intact
 
 ```go
