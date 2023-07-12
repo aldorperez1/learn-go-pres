@@ -27,7 +27,8 @@
 
 ---
 ## Declaration differences between arrays and slices
-- Highlight the flexibility of slices compared to arrays
+- Slice: `names := make([]string, 3)`
+- Array: `names := [3]string { "One", "Two", "Three" }`
 
 ---
 ## Declaring a nil slice
