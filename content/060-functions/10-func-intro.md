@@ -6,8 +6,6 @@
 
 ---
 ##### Intro
-- Welcome to the Functions in Go lesson
-- Target audience: Experienced developers with no prior knowledge of Go
 - Objectives: Understand the basics of functions in Go and learn best practices
 - Topics covered: Functions, Multiple Return Values, Named Return Values, Variadic Functions, Anonymous Functions & Closures, Recursion, First-class Functions, Higher Order Functions
 

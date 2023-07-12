@@ -5,9 +5,7 @@
 {{< slide id="typeEmbed" >}}
 
 #### Type Embedding
-- Introduce type embedding as a way to reuse code and extend behavior.
-- Explain that a struct can embed fields from other structs.
-- Show code examples of struct embedding in Go.
+- A struct can embed fields from other structs.
 
 ---
 #### Type Embedding Example
