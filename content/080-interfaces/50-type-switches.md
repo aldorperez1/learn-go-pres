@@ -18,7 +18,7 @@ switch data.(type) {
     case float64:
       // float64 type
     default:
-      // unknown or default tyoe
+      // unknown or default type
    }
 ```
 
